@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(120deg, #4d4f5c, #8282c5);    
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.first{
+    background:white;
+    width:90%;
+    max-width:700px;
+    padding: 30px;
+    border-radius:25px;
+    box-shadow:0 20px 50px rgba(0,0,0,0.15);
+    animation:fadeIn 1.5s ease;
+}
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.head{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+}
+#cong{
+    font-family: corbel;
+    text-align: center;
+    color: rgb(165, 15, 224);
+    font-size: 40px
+}
+.ta{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Autumn Flowers;
+    font-size: 27px;
+}
+.fir{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+.sec{
+    text-align: center;
+    background-color: #9119c0b2;
+    max-width: 5000px;
+    height: 80px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    padding: 18px;
+}
+.bl{
+    font-family: candara;
+    color: white;
+}
+.button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+button{
+    background-color: rgba(174, 0, 255, 0.87);
+    font-family: candara;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 40px;
+    max-width: 600px;
+    border: none;
+    color: white;
+}
+button:hover{
+    background-color: rgb(154, 1, 224);
+    transition: 0.5s;
+    transform: scale(1.2);
+}
